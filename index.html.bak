@@ -1,6 +1,6 @@
 
 
-<html><head><title>Introduction to Electronics</title>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Introduction to Electronics</title>
 <style>
 h1 { 
   display: block;
@@ -84,7 +84,7 @@ a:active {
 <h4><marquee behavior="scroll" direction="left" scrollamount="5000">The field of electronics is a branch of physics and electrical engineering that deals with the emission, behaviour and effects of electricity using electronic devices.
 <br>
 Electronics uses active components to control electron flow by amplification and rectification and passive effects (with the help of passive components) like resistance, capacitance and inductance to control electric current flow.</marquee></h4>
-<marquee behavior="scroll" direction="right" scrollamount="100"><img src="https://tinyimg.io/i/75rthQ3.png" alt="Maintainance" /></marquee>
+<marquee behavior="scroll" direction="right" scrollamount="100"><img src="https://tinyimg.io/i/75rthQ3.png" alt="Maintainance"></marquee>
 <h4>Some well known active components are:</h4>
 <marquee behavior="scroll" direction="left" scrollamount="100"><img src="https://tinyimg.io/i/75rthQ3.png" alt="Maintainance"></marquee>
 <ul>
