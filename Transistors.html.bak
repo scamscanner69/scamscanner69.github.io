@@ -1,0 +1,106 @@
+<html>
+<title>Transistors</title>
+<style>
+h1 { 
+  display: block;
+  font-size: 3em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: center;
+  color:yellow;
+ 
+
+}
+h2 {
+  display: block;
+  font-size: 2.25em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  color:yellow;
+  
+}
+h3 {
+  display: block;
+  font-size: 1.75em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color:yellow;
+
+}
+h4 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+  color:yellow;
+
+}
+
+body {
+  background-image: url('bg.jpeg');
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+<Body>
+<h1>Transistors</h1>
+<h4>A transistor is a semiconductor device used to amplify or switch electrical signals and power. <br>The transistor is one of the basic building blocks of modern electronics<br>It is composed of semiconductor material, usually with at least three terminals for connection to an electronic circuit.<br>A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals.<br>Because the controlled (output) power can be higher than the controlling (input) power, a transistor can amplify a signal.<br>Some transistors are packaged individually, but many more are found embedded in integrated circuits.</h4>
+<figure>
+<img src="Transistor.jpg" alt="Transistor" style="width:365px;height:288px;">
+<figcaption><p style="color:yellow">Assorted discrete transistors. Packages in order from top to bottom:<br> TO-3, TO-126, TO-92, SOT-23.</p></figcaption>
+</figure>
+
+
+<h3>Classification of Transistors</h3>
+<ul>
+<li><h2>Bipolar Junction Transistor (BJT)</h2></li>
+<li><h2>Field Effect transistor (FET)</h2></li>
+<li><h2>Metal Oxide Semiconductor Field Effect transistor (MOSFET)</h2></li>
+<li><h2>Insulated-Gate Bipolar Transistor (IGBT)</h2></li>
+</ul>
+<h3>Different Transistors Symbols</h3>
+<br>
+<br>
+<img src="Tran1.png" alt="Transistor">
+<br>
+<br>
+<img src="Tran2.png" alt="Transistor">
+</ul>
+</body>
+</html>
