@@ -102,5 +102,9 @@ a:active {
 <br>
 <img src="Tran2.png" alt="Transistor">
 </ul>
+<h3><a href="Introduction.html">Go Back to Home</a></h3>
+<h3><a href="Arduinonano.html">Go to Arduino Nano</a></h3>
+<h3><a href="Resistors.html">Go to Resistor</a></h3>
+
 </body>
 </html>
