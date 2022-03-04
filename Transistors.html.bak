@@ -55,7 +55,7 @@ body {
 }
 
 a:link {
-  color: green;
+  color: red;
   background-color: transparent;
   text-decoration: none;
 }
@@ -73,7 +73,7 @@ a:hover {
 }
 
 a:active {
-  color: green;
+  color: red;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -91,7 +91,7 @@ a:active {
 <ul>
 <li><h2>Bipolar Junction Transistor (BJT)</h2></li>
 <li><h2>Field Effect transistor (FET)</h2></li>
-<li><h2>Metal Oxide Semiconductor Field Effect transistor (MOSFET)</h2></li>
+<li><h2>Metal Oxide Semiconductor Field Effect Transistor (MOSFET)</h2></li>
 <li><h2>Insulated-Gate Bipolar Transistor (IGBT)</h2></li>
 </ul>
 <h3>Different Transistors Symbols</h3>
