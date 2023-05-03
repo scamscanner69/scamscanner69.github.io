@@ -78,8 +78,54 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+ #dvd-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 200px;
+        background-image: url('https://cloudmono.macmono.workers.dev/2:/6.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
 </style>
 </head><body>
+<div id="dvd-logo"></div>
+    <script>
+	// Get the logo element
+const logo = document.getElementById('dvd-logo');
+
+// Set the initial position and speed
+let x = 0;
+let y = 0;
+let xSpeed = 5;
+let ySpeed = 5;
+
+// Define the animation function
+function animate() {
+  // Update the position of the logo
+  x += xSpeed;
+  y += ySpeed;
+
+  // Reverse the direction of the logo when it hits the edges of the screen
+  if (x + logo.offsetWidth > window.innerWidth || x < 0) {
+    xSpeed = -xSpeed;
+  }
+  if (y + logo.offsetHeight > window.innerHeight || y < 0) {
+    ySpeed = -ySpeed;
+  }
+
+  // Set the new position of the logo
+  logo.style.transform = `translate(${x}px, ${y}px)`;
+
+  // Call the animate function again
+  requestAnimationFrame(animate);
+}
+
+// Start the animation
+animate();
+
+	</script>
 <h1><marquee behavior="scroll" direction="up" scrollamount="20">Welcome to Mono Landing Page</marquee></h1>
 <h4>Click this Link to Access Manomoy Picture Gallery - <a href="monohd.html">Click Me</a>
 <br>
